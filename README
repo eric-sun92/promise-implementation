@@ -1,0 +1,10 @@
+promise implementation
+
+a promise is created when u need an async function to fun before completing another task
+once the async function is finished, if the function was run successfully,
+    then u call the resolve function within the .then()
+    if not, u call the reject function within the .catch()
+u can have multiple .thens so u need to push the functions in an array while the 
+async function is running and then call them back in the order that they were stored
+once the async function is finished, depending on the return state
+
