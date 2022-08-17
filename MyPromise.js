@@ -75,7 +75,6 @@ class MyPromise {
                     reject(error)
                 }
             })
-
             this.#runCallBacks()
         })
     }
